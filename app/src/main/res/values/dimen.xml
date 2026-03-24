@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="MainHeaderSize">22sp</dimen>
+    <dimen name="SubheaderSize">17sp</dimen>
+    <dimen name="Headermargin">10dp</dimen>
 </resources>
