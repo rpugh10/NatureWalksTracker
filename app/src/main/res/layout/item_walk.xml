@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootMain"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".item_walk">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/imageMargin"
+        android:textSize="@dimen/MainHeaderSize"
+        android:layout_gravity="center"
+        android:text="@string/imageTitle" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/beach_walk" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/imageMargin"
+        android:layout_gravity="center"
+        android:textSize="@dimen/SubheaderSize"
+        android:layout_height="wrap_content"
+        android:text="@string/imageLocation" />
+
+    <TextView
+        android:id="@+id/selectionText"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/imageMargin"
+        android:textSize="@dimen/SubheaderSize"
+        android:layout_gravity="center"
+        android:text="@string/imageSelected" />
+</LinearLayout>

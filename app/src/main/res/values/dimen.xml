@@ -3,4 +3,6 @@
     <dimen name="MainHeaderSize">22sp</dimen>
     <dimen name="SubheaderSize">17sp</dimen>
     <dimen name="Headermargin">10dp</dimen>
+    <dimen name="imageHeight">180dp</dimen>
+    <dimen name="imageMargin">20dp</dimen>
 </resources>

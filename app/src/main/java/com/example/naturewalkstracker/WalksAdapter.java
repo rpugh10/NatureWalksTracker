@@ -30,7 +30,7 @@ public class WalksAdapter extends RecyclerView.Adapter<WalksAdapter.ViewHolder>{
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context)
-                .inflate(R.layout.activity_item_walk, parent, false);
+                .inflate(R.layout.item_walk, parent, false);
         return new ViewHolder(view);
     }
 
@@ -38,9 +38,9 @@ public class WalksAdapter extends RecyclerView.Adapter<WalksAdapter.ViewHolder>{
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Walk walk = walks.get(position);
 
-        holder.imageView.setImageResource(walk.imageResId);
-        holder.location.setText(walk.location);
         holder.title.setText(walk.title);
+        holder.location.setText(walk.location);
+        holder.imageView.setImageResource(walk.imageResId);
 
         if (walk.isSelected) {
             holder.selected.setVisibility(View.VISIBLE);

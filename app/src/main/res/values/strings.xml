@@ -2,4 +2,7 @@
     <string name="app_name">NatureWalksTracker</string>
     <string name="MainPageHeader">Nature Walks Tracker</string>
     <string name="MainPageSubHeader">Tap to select up to 2 walks</string>
+    <string name="imageTitle">Title</string>
+    <string name="imageLocation">Location</string>
+    <string name="imageSelected">Selected</string>
 </resources>
